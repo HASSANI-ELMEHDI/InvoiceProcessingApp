@@ -4,9 +4,6 @@
 [submodule "backend/model"]
 	path = backend/model
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_model.git
-[submodule "backend/data-extraction-service"]
-	path = backend/data-extraction-service
-	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_data-extraction-service.git
 [submodule "backend/services/data-extraction-service"]
 	path = backend/services/data-extraction-service
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_data-extraction-service.git
