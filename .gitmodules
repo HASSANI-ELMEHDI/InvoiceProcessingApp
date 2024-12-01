@@ -4,3 +4,6 @@
 [submodule "backend/services/data-extraction-service"]
 	path = backend/services/data-extraction-service
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_data-extraction-service.git
+[submodule "frontend-angular"]
+	path = frontend-angular
+	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_frontend.git
