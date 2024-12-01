@@ -1,4 +1,4 @@
-[submodule "frontend"]
+[submodule "frontend-Angular"]
 	path = frontend
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_frontend.git
 [submodule "backend/model"]
