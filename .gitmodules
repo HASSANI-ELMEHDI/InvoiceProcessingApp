@@ -7,3 +7,6 @@
 [submodule "frontend-angular"]
 	path = frontend-angular
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_frontend.git
+[submodule "frontend-nextjs"]
+	path = frontend-nextjs
+	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessingApp_frontend-nextJS.git
