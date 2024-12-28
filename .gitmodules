@@ -1,12 +1,6 @@
-[submodule "backend/model"]
-	path = backend/model
+[submodule "backend"]
+	path = backend
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_model.git
-[submodule "backend/services/data-extraction-service"]
-	path = backend/services/data-extraction-service
-	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_data-extraction-service.git
-[submodule "frontend-angular"]
-	path = frontend-angular
-	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessing_frontend.git
-[submodule "frontend-nextjs"]
-	path = frontend-nextjs
+[submodule "frontend"]
+	path = frontend
 	url = https://github.com/HASSANI-ELMEHDI/InvoiceProcessingApp_frontend-nextJS.git
