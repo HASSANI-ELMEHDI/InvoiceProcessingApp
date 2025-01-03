@@ -6,15 +6,19 @@ services:
       context: ./frontend
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=production
     depends_on:
       - backend
+    networks:
+      - app_network  # Ensure frontend is on the same network
 
   backend:
     build:
       context: ./backend
     ports:
       - "5000:5000"
-    environment:
-      - FLASK_ENV=production
+    networks:
+      - app_network  # Ensure backend is on the same network
+
+networks:
+  app_network:
+    driver: bridge  # Use the bridge network driver to allow communication between containers
